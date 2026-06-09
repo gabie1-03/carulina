@@ -4,8 +4,8 @@
   "description": "A casa organizada começa aqui",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FBEAF0",
-  "theme_color": "#D4537E",
+  "background_color": "#EAF1FE",
+  "theme_color": "#2D6CDF",
   "lang": "pt-BR",
   "icons": [
     {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
