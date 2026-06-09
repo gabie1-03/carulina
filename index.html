@@ -1708,7 +1708,7 @@ function obSelPain(el){
 
 // Tela 6 — frequência
 function obSelFreqPref(el){
-  document.querySelectorAll('[data-freq]').forEach(r=>{
+  document.querySelectorAll('.ob-check-row[data-freq]').forEach(r=>{
     r.classList.remove('sel');
     r.querySelector('.ob-check-box').style.cssText='';
   });
