@@ -42,7 +42,7 @@ html,body{height:100%;overflow:hidden;background:var(--gray-bg);font-family:var(
 .ob-progress{position:absolute;top:0;left:0;right:0;height:3px;background:var(--pink-mid);z-index:10}
 .ob-progress-bar{height:100%;background:var(--pink);transition:width .4s ease;border-radius:0 999px 999px 0}
 .ob-screen{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:2.5rem 1.5rem 2rem;transition:opacity .3s ease,transform .3s ease;opacity:0;pointer-events:none;transform:translateX(30px);overflow-y:auto}
-.ob-screen.active{opacity:1;pointer-events:all;transform:translateX(0)}
+.screen.active .ob-screen.active{opacity:1;pointer-events:all;transform:translateX(0)}
 .ob-screen.exit-left{opacity:0;transform:translateX(-30px)}
 .ob-screen.exit-right{opacity:0;transform:translateX(30px)}
 .ob-logo{display:flex;flex-direction:column;align-items:center;margin-bottom:2rem}
